@@ -9,7 +9,6 @@ body {font-size: 1rem;}
 .desc {font-size: 3.5rem; line-height: 4.9rem; font-weight: 300; letter-spacing: -1px;}
 .text {font-size: 1.076923rem; margin: 1.5rem 0 0 0; line-height: 1.8rem;}
 strong {font-size: 3.5rem;}
-rem으로 바꾸기
 .control .circle {float: left; display: block; width: 10px; height: 10px; margin: 0 8px 0 0; border: 2px solid #000; border-radius: 10px;}
 .control .view-circle {background-color: #000;}
 .more-link {display: inline-block; background-color: #098488; height: 70px; line-height: 70px; padding: 0 72px; border-radius: 35px;}
