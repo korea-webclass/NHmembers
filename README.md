@@ -19,11 +19,4 @@ CSS3
 ## 이미지 스프라이트(image sprite) 기법 사용
 기존 웹사이트는 각각의 요소에 들어가는 이미지를 낱개로 사용하고 있었습니다. <br>
 스프라이트 기법으로 이미지를 하나의 파일로 제작 후에 `background-position` 을 사용하여 이미지를 배치하였습니다. <br>
-<img src="../images/sprite.png" width="50%" title="스프라이트" alt="스프라이트"></img><br/>
-
-
-
-
-
-
-
+![sprite](https://user-images.githubusercontent.com/65770361/114313561-f6b9b300-9b31-11eb-8bbe-2bf87ca822a6.png)
