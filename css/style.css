@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+/* rem 계산 원하는 픽셀 나누기 13px*/
+html {font-size: 13px;}
+body {font-size: 1rem;}
+
+/* 공통 */
+.center {max-width: 94.1rem; margin: 0 auto; padding: 0 2.1rem;}
+.desc {font-size: 3.5rem; line-height: 4.9rem; font-weight: 300; letter-spacing: -1px;}
+.text {font-size: 1.076923rem; margin: 1.5rem 0 0 0; line-height: 1.8rem;}
+strong {font-size: 3.5rem;}
+rem으로 바꾸기
+.control .circle {float: left; display: block; width: 10px; height: 10px; margin: 0 8px 0 0; border: 2px solid #000; border-radius: 10px;}
+.control .view-circle {background-color: #000;}
+.more-link {display: inline-block; background-color: #098488; height: 70px; line-height: 70px; padding: 0 72px; border-radius: 35px;}
+.more-link > span {font-weight: 700; font-size: 16px; color: #fff;}
+
+/* 헤더 */
+.header {height: 10rem;}
+.header .user {position: relative; height: 34px;}
+.header .user > div {position: absolute; right: 0;}
+.header .user ul {float: left;}
+.header .user li {position: relative; float: left; padding: 0 0.7rem;}
+.header .user li::after {content: ''; position: absolute; top: 11px; left: 0; width: 1px; height: 14px; background-color: #d5d5d5;}
+.header .user li:first-child::after {content: none;}
+.header .user a {display: block; height: 34px; line-height: 34px; color: #8f918f;}
+.header .user .app-btn {width: 70px; height: 34px; background: url('../images/sprite.png') no-repeat -200px 0; vertical-align: top;}
+.header .gnb-content {position: relative; height: 96px; clear: both;}
+.header .gnb-content .logo,
+.header .gnb-content nav,
+.header .gnb-content nav li {float: left;}
+.header .gnb-content .logo {width: 190px; height: 30px; margin: 14px 100px 52px 100px; background: url('../images/sprite.png') no-repeat -0px 0px;}
+.header .gnb-content nav li {margin: 0 50px;}
+.header .gnb-content nav a {font-family: 'Noto Sans KR', sans-serif; font-size: 17px; font-weight: 700;}
+.header .gnb-content .gnb {margin: 16px 0 0 0;}
+.header .gnb-content .gnb::after {content: ''; display: block; clear: both;}
+.header .gnb-content .search {position: absolute; right: 0; width: 26px; height: 24px; margin: 19px 0 0 0; background: url('../images/sprite.png') no-repeat -280px -5px;}
+
+/* 비주얼 */
+.visual {position: relative; height: 598px;}
+.visual .control {position: absolute; bottom: 120px; left: 0; right: 0; z-index: 1;}
+.visual .control > div {position: relative; height: 14px; max-width: 1224px; margin: 0 auto; padding: 0 28px; box-sizing: border-box;}
+.visual .list {width: 100%;}
+.visual .bg {height: 598px; background: url('../images/main-visual-bg.jpg') no-repeat center / cover;}
+.visual .center {position: absolute; top: 0; right: 0; bottom: 0; left: 0; padding: 0 28px; box-sizing: border-box;}
+.visual .content {position: relative; height: 598px;}
+.visual .text-box {position: absolute; top: 30%; transform: translateY(-30%);}
+.visual .text-box .desc .br01 {display: none;}
+.visual .text-box .text br {display: none;}
+.visual .text-box .more {display: inline-block; line-height: 50px; margin: 76px 0 0 0; padding: 0 20px; border-radius: 50px; border: 1px solid #000; font-size: 15px;}
+.visual .text-box .more > span {position: relative; padding: 0 20px 0 0;}
+.visual .text-box .more > span::after {content: ''; display: block; position: absolute; top: 7px; right: 0; width: 6px; height: 10px; background: url('../images/main-visual-more-arr.png');}
+.visual .login {position: absolute; bottom: 0; left: 0; right: 0; z-index: 1;}
+.visual .login > div {position: relative; height: 14px; max-width: 1224px; margin: 0 auto; padding: 0 28px; box-sizing: border-box;}
+.visual .login a {position: absolute; right: 28px; bottom: -40px; width: 86px; height: 86px; background: url('../images/main-visual-login.png')}
+
+/* NH포인트 혜택보기 */
+.renefits .content {padding: 179px 0 41px 0;}
+.renefits .text-box {text-align: center;}
+.renefits .text-box img {vertical-align: -12px; line-height: 100%;}
+.renefits .text-box strong {margin: 0 0 0 12px;}
+.renefits .nh-card {position: relative; height: 685px;}
+.renefits .nh-card .bg {height: 685px; background: url('../images/renefits-bg.png') no-repeat center}
+.renefits .nh-card img {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+.renefits .nh-card ul {position: relative; width: 711px; height: 685px; margin: 0 auto;}
+.renefits .nh-card li {position: absolute; font-size: 16px; line-height: 24px;}
+.renefits .nh-card li::after {content: ''; position: absolute; width: 20px; height: 20px; background: url('../images/sprite.png') -318px -60px; cursor: pointer;}
+.renefits .nh-card .text01 {top: 128px; left: 20px; text-align: right; padding-right: 40px;}
+.renefits .nh-card .text02 {top: 128px; right: 20px; text-align: left; padding-left: 40px;}
+.renefits .nh-card .text03 {bottom: 130px; left: 34px; text-align: right; padding-right: 40px;}
+.renefits .nh-card .text04 {bottom: 130px; right: 40px; text-align: left; padding-left: 40px;}
+.renefits .nh-card .text01::after {top: 20px; right: 5px;}
+.renefits .nh-card .text02::after {top: 20px; left: 2.5px;}
+.renefits .nh-card .text03::after {top: 15px; right: 5px;}
+.renefits .nh-card .text04::after {top: 15.5px; left: 6.5px;}
+.renefits .more-link-content {text-align: center;}
+
+/* 이벤트 영역 */
+.main-event .content {padding: 59px 0 41px 0;}
+.main-event .list {text-align: center;}
+.main-event img {width: 100%; max-width: 960px; vertical-align: top;}
+.main-event .control {padding: 18px 0 14px 0;}
+.main-event .control > div {display: inline-block; height: 14px; max-width: 1224px; margin: 0 auto; box-sizing: border-box;}
+.main-event .more-link-content {padding: 20px 0 0 0;}
+
+/* 모바일 앱 다운로드 혜택 */
+.card .list {width: 1000px; max-width: calc(100% + 10px); margin: 0 auto;}
+.card .list::after {content: ''; display: block; clear: both;}
+.card .list li {float: left; width: calc(25% - 20px); height: 365px; margin: 10px; padding: 60px 5px 5px 5px; text-align: center; border-radius: 8px; box-sizing: border-box; box-shadow: 0px 1px 30px rgb(0 0 0 / 10%);}
+.card .list a {display: block;}
+.card .list .icon {display: inline-block; vertical-align: top; background-repeat: no-repeat; width: 90px; height: 90px; margin: 0 0 14px 0;}
+.card .list .icon01 {background: url('../images/sprite.png') 0 -136px;}
+.card .list .icon02 {background: url('../images/sprite.png') -100px -136px;}
+.card .list .icon03 {background: url('../images/sprite.png') -200px -136px;}
+.card .list .icon04 {background: url('../images/sprite.png') -300px -136px;}
+.card .list strong {display: block; font-size: 20px; margin: 0 0 15px 0;}
+.card .list p {font-size: 14px; line-height: 24px; margin: 0 0 15px 0;}
+.card .list .circle-arr {display: inline-block; vertical-align: top; width: 39px; height: 39px; background: url('../images/sprite.png') no-repeat -400px -136px;}
+
+/* NH멤버스 앱 다운로드 */
+.app {position: relative; overflow: hidden; height: 993px;}
+.app .bg {min-width: 1652px; height: 993px; margin: 0 auto; background: url('../images/app-bg.png') no-repeat center}
+.app .center {position: absolute; top: 0; right: 0; bottom: 0; left: 0; padding: 0 28px; box-sizing: border-box;}
+.app .content {position: relative; height: 993px;}
+.app .mobile {float: left; width: 609px; height: 100%; background: url('../images/app-mobile.png') no-repeat 100% 85px;}
+.app .text-box {float: left; display: table;}
+.app .text-box .table {height: 993px; display: table-cell; vertical-align: middle;}
+.app .app-down {margin: 45px 0 0 0; font-size: 0;}
+.app .app-down .google-play {display: inline-block; width: 206px; height: 70px; background: url('../images/sprite.png') no-repeat 0 -236px; margin: 0 4px 0 0;}
+.app .app-down .app-store {display: inline-block; width: 206px; height: 70px; background: url('../images/sprite.png') no-repeat -216px -236px;}
+
+/* 푸터 */
+.footer {position: relative;}
+.footer .content {position: relative; text-align: center; padding: 60px 0;}
+.footer .logo {display: inline-block; width: 180px; height: 26px; margin: 0 0 26px 0; background: url('../images/sprite.png') no-repeat -589px -260px;}
+.footer .info {font-size: 0; margin: 0 0 28px 0;}
+.footer .info li {display: inline-block; margin: 0 10px; padding: 0 10px; font-size: 13px;}
+.footer address {margin: 0 0 10px 0;}
+.footer .refe {position: absolute; top: 0; right: 0; font-size: 0;}
+.footer .refe a {display: inline-block; background: url('../images/sprite.png') no-repeat}
+.footer .refe a + a {margin: 0 0 0 20px;}
+.footer .refe .wa {width: 140px; height: 100px; background-position: -589px -136px; transform: scale(0.70); transform-origin: 140px 0px; zoom: 0;}
+.footer .refe .qr {width: 130px; height: 150px; background-position: -449px -136px;}
+
+@media all and (min-width: 1001px) and (max-width: 1097px) {
+    /* NH멤버스 앱 다운로드 */
+    .app {overflow: hidden; height: 1131px;}
+    .app .bg {height: 783px;}
+    .app .content {height: 1131px;}
+    .app .mobile {float: none; width: 549px; margin: 0 auto; height: 769px; background: url('../images/app-mobile.png') no-repeat 0px 110px / 100% auto;}
+    .app .text-box {float: none; display: block; text-align: center;}
+    .app .text-box .table {height: auto; display: block;}
+}
