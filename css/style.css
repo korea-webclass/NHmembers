@@ -142,6 +142,28 @@ strong {font-size: 3.5rem;}
 .nhpoint-event .event-list .list-desc {font-size: 16px; font-weight: 700;}
 .nhpoint-event .event-list .list-text {margin: 12px 0 0 0; font-size: 14px; line-height: 26px; font-weight: 300;}
 .nhpoint-event .event-list .list-point {font-weight: 700;}
+.nh-bers .content {padding: 70px 0;}
+.nh-bers .nh-bers-set {width: 1012px; margin: 0 auto;}
+.nh-bers .bers-list::after {content: ''; display: block; clear: both;}
+.nh-bers .bers-list .list {float: left; width: 245px; height: 224px; text-align: center;}
+.nh-bers .bers-list .list .icon {display: inline-block; width: 120px; height: 120px; vertical-align: top;}
+.nh-bers .bers-list .list .icon01 {background: url('../images/sub/sub-sprite.png') no-repeat 0 0;}
+.nh-bers .bers-list .list .icon02 {background: url('../images/sub/sub-sprite.png') no-repeat -130px 0;}
+.nh-bers .bers-list .list .icon03 {background: url('../images/sub/sub-sprite.png') no-repeat -260px 0;}
+.nh-bers .bers-list .list .icon04 {background: url('../images/sub/sub-sprite.png') no-repeat -390px 0;}
+.nh-bers .bers-list .list .icon05 {background: url('../images/sub/sub-sprite.png') no-repeat 0 -130px;}
+.nh-bers .bers-list .list .icon06 {background: url('../images/sub/sub-sprite.png') no-repeat -130px -130px;}
+.nh-bers .bers-list .list .icon07 {background: url('../images/sub/sub-sprite.png') no-repeat -260px -130px;}
+.nh-bers .bers-list .list .icon08 {background: url('../images/sub/sub-sprite.png') no-repeat -390px -130px;}
+.nh-bers .bers-list .list .icon09 {background: url('../images/sub/sub-sprite.png') no-repeat 0 -260px;}
+.nh-bers .bers-list .list .icon10 {background: url('../images/sub/sub-sprite.png') no-repeat -130px -260px;}
+.nh-bers .bers-list .list .icon11 {background: url('../images/sub/sub-sprite.png') no-repeat -260px -260px;}
+.nh-bers .bers-list .list .icon12 {background: url('../images/sub/sub-sprite.png') no-repeat -390px -260px;}
+.nh-bers .bers-list .list .icon13 {background: url('../images/sub/sub-sprite.png') no-repeat 0 -390px;}
+.nh-bers .bers-list .list .icon14 {background: url('../images/sub/sub-sprite.png') no-repeat -130px -390px;}
+.nh-bers .bers-list .list .icon15 {background: url('../images/sub/sub-sprite.png') no-repeat -260px -390px;}
+.nh-bers .bers-list .list .icon16 {background: url('../images/sub/sub-sprite.png') no-repeat -390px -390px;}
+.nh-bers .bers-list .list .bers-text {font-size: 18px; margin: 10px 0 0 0;}
 
 /* 푸터 */
 .footer {position: relative;}
