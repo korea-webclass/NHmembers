@@ -22,6 +22,15 @@ strong {font-size: 3.5rem;}
 .sub-location .location .point {position: relative; font-weight: 700; padding: 0 24px 0 0;}
 .sub-location .location .point::after {content: ''; position: absolute; top: 0; right: 0px; width: 20px; height: 20px; background: url('../images/sub/sub-location-circle-arr.png') no-repeat;}
 .sub-page-title .sub-desc {font-size: 36px; line-height: 76px; font-weight: 300; text-align: center;}
+.sub-banner {margin: 65px 0 0 0; background-color: #e5f6f6;}
+.sub-banner .banner {position: relative; height: 400px;}
+.sub-banner .bg {width: 238px; height: 479px; position: absolute; top: -79px; right: 0; background: url('../images/sub/sub-banner01.png') no-repeat;}
+.sub-banner .text-content {position: absolute; top: 50%; transform: translateY(-50%);}
+.sub-banner .text-content .sub-desc {font-size: 28px; font-weight: 300; margin: 0 0 20px 0;}
+.sub-banner .text-content .point {font-weight: 700;}
+.sub-banner .text-content .sub-text {font-size: 16px; line-height: 26px; font-weight: 300;}
+
+
 /* 헤더 */
 .header {height: 10rem;}
 .header .user {position: relative; height: 34px;}
