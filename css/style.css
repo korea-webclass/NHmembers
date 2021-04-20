@@ -23,13 +23,13 @@ strong {font-size: 3.5rem;}
 .sub-location .location .point::after {content: ''; position: absolute; top: 0; right: 0px; width: 20px; height: 20px; background: url('../images/sub/sub-location-circle-arr.png') no-repeat;}
 .sub-page-title .sub-desc {font-size: 36px; line-height: 76px; font-weight: 300; text-align: center;}
 .sub-banner {margin: 65px 0 0 0; background-color: #e5f6f6;}
-.sub-banner .banner {position: relative; height: 400px;}
+.sub-banner .banner {position: relative; width: 1012px; height: 400px; margin: 0 auto;}
 .sub-banner .bg {width: 238px; height: 479px; position: absolute; top: -79px; right: 0; background: url('../images/sub/sub-banner01.png') no-repeat;}
 .sub-banner .text-content {position: absolute; top: 50%; transform: translateY(-50%);}
 .sub-banner .text-content .sub-desc {font-size: 28px; font-weight: 300; margin: 0 0 20px 0;}
 .sub-banner .text-content .point {font-weight: 700;}
 .sub-banner .text-content .sub-text {font-size: 16px; line-height: 26px; font-weight: 300;}
-
+.sub-content-title {margin: 0 0 56px 0; font-size: 24px; font-weight: 900; text-align: center; line-height: 100%;}
 
 /* 헤더 */
 .header {height: 10rem;}
@@ -126,7 +126,22 @@ strong {font-size: 3.5rem;}
 .app .app-down .app-store {display: inline-block; width: 206px; height: 70px; background: url('../images/sprite.png') no-repeat -216px -236px;}
 
 /* 서브 페이지 - 새롭게, */
-
+.nhpoint-event .content {padding: 60px 0;}
+.nhpoint-event .event {width: 1012px; margin: 0 auto;}
+.nhpoint-event .content-center + .content-center {margin: 48px 0 0 0;}
+.nhpoint-event .point-set p {font-size: 28px; text-align: center; margin: 0 0 18px 0;}
+.nhpoint-event .point-set .point {color: #f15921;}
+.nhpoint-event .event-list::after {content: ''; display: block; clear: both;}
+.nhpoint-event .event-list .list {float: left; width: 490px; height: 386px; padding: 24px; box-sizing: border-box; text-align: center;}
+.nhpoint-event .event-list .icon {display: inline-block; width: 150px; height: 150px;}
+.nhpoint-event .event-list .icon01 {background: url('../images/sub/sub-sprite.png') no-repeat 0 -520px;}
+.nhpoint-event .event-list .icon02 {background: url('../images/sub/sub-sprite.png') no-repeat -160px -520px;}
+.nhpoint-event .event-list .icon03 {background: url('../images/sub/sub-sprite.png') no-repeat -320px -520px;}
+.nhpoint-event .event-list .icon04 {background: url('../images/sub/sub-sprite.png') no-repeat -480px -520px;}
+.nhpoint-event .event-list .text-content {margin: 16px 0 0 0;}
+.nhpoint-event .event-list .list-desc {font-size: 16px; font-weight: 700;}
+.nhpoint-event .event-list .list-text {margin: 12px 0 0 0; font-size: 14px; line-height: 26px; font-weight: 300;}
+.nhpoint-event .event-list .list-point {font-weight: 700;}
 
 /* 푸터 */
 .footer {position: relative;}
