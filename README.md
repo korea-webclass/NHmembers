@@ -37,24 +37,24 @@ strong {font-size: 3.5rem;}
 ![test-sprite](https://user-images.githubusercontent.com/65770361/114313874-4ea4e980-9b33-11eb-9a4b-69fe781ead08.png)
 
 ## git commit message 작성 규칙
-feat : 새로운 기능에 대한 커밋 
-fix : 버그 수정에 대한 커밋 
-build : 빌드 관련 파일 수정에 대한 커밋 
-chore : 그 외 자잘한 수정에 대한 커밋 
-ci : CI관련 설정 수정에 대한 커밋 
-docs : 문서 수정에 대한 커밋 
-style : 코드 스타일 혹은 포맷 등에 관한 커밋 
-refactor :  코드 리팩토링에 대한 커밋 
-test : 테스트 코드 수정에 대한 커밋 
-feat : 서브 페이지 (새롭게, href 추가 / 서브 배너 추가) 
+- feat : 새로운 기능에 대한 커밋 
+- fix : 버그 수정에 대한 커밋 
+- build : 빌드 관련 파일 수정에 대한 커밋 
+- chore : 그 외 자잘한 수정에 대한 커밋 
+- ci : CI관련 설정 수정에 대한 커밋 
+- docs : 문서 수정에 대한 커밋 
+- style : 코드 스타일 혹은 포맷 등에 관한 커밋 
+- refactor :  코드 리팩토링에 대한 커밋 
+- test : 테스트 코드 수정에 대한 커밋 
+- feat : 서브 페이지 (새롭게, href 추가 / 서브 배너 추가) 
 
 ## git commit message 작성 했던 규칙
 git 커밋 메시지를 잘 쓰려고 노력했습니다. 
 
-타입 : OO 페이지 (페이지명 설명 / 설명) 
-예) 
-- feat : 메인 페이지 (헤더 추가) 
-- fix : 메인 (비주얼 영역 슬라이드 버튼 누락 수정) 
-- docs : 서브 페이지 (공통 스타일 작업) 
-- feat : 서브 페이지 (새롭게, href 추가) 
-- feat : 서브 페이지 (새롭게, href 추가 / 서브 배너 추가) 
+타입 : OO 페이지 (페이지명 설명 / 설명) <br>
+예) <br>
+- feat : 메인 페이지 (헤더 추가) <br>
+- fix : 메인 (비주얼 영역 슬라이드 버튼 누락 수정) <br>
+- docs : 서브 페이지 (공통 스타일 작업) <br>
+- feat : 서브 페이지 (새롭게, href 추가) <br>
+- feat : 서브 페이지 (새롭게, href 추가 / 서브 배너 추가) <br>
