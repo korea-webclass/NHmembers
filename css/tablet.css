@@ -10,6 +10,8 @@ body {font-size: 1rem;}
 .text {font-size: 16px; margin: 20px 0 0 0;}
 .more-link {height: 48px; line-height: 48px; padding: 0 36px;}
 .more-link > span {font-size: 18px;}
+.sub-location {display: none;}
+.sub-banner .banner {padding: 0 60px; box-sizing: border-box;}
 
 /* pc 버전 숨김 */
 .header .user, 
@@ -17,8 +19,9 @@ body {font-size: 1rem;}
 .header .gnb-content .search {display: none;}
 .header {height: 6.9rem;}
 .header .gnb-content {position: relative; height: 90px;}
-.header .gnb-content .logo {margin: 30px 0 30px 30px;}
+.header .gnb-content .logo {position: absolute; top: 30px; right: 0; left: 0; margin: 0 auto;}
 .header .gnb-content .menu-btn {position: absolute; top: 31px; right: 30px; display: block; width: 36px; height: 28px; background: url('../images/sprite.png') no-repeat -739px -136px;}
+.header .mobile-prev {position: absolute; top: 27px; left: 30px; width: 19px; height: 35px; background: url('../images/sub/prev-arr.png') no-repeat;}
 
 /* 비주얼 */
 .visual .text-box .desc br {display: block;}
@@ -59,6 +62,10 @@ body {font-size: 1rem;}
 .app .mobile {float: none; width: 549px; margin: 0 auto; height: 769px; background: url('../images/app-mobile.png') no-repeat 0px 110px / 100% auto;}
 .app .text-box {float: none; display: block; text-align: center;}
 .app .text-box .table {height: auto; display: block;}
+
+/* 서브 페이지 - 새롭게, */
+.nhpoint-event .event-list .list {width: 50%;}
+.nh-bers .bers-list .list {width: calc(33.3% - 40px); padding: 0 20px;}
 
 /* 푸터 */
 .footer .content {padding: 60px 40px;}
