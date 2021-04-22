@@ -50,6 +50,7 @@ strong {font-size: 3.5rem;}
 .header .gnb-content nav a {font-family: 'Noto Sans KR', sans-serif; font-size: 17px; font-weight: 700;}
 .header .gnb-content .gnb {margin: 16px 0 0 0;}
 .header .gnb-content .gnb::after {content: ''; display: block; clear: both;}
+.header .gnb-content .gnb-menu {display: none;}
 .header .gnb-content .search {position: absolute; right: 0; width: 26px; height: 24px; margin: 19px 0 0 0; background: url('../images/sprite.png') no-repeat -280px -5px;}
 
 /* 비주얼 */
