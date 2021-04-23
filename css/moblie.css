@@ -81,7 +81,7 @@ body {font-size: 1rem;}
 .app .text-box .table {height: auto; display: block;}
 
 /* 서브 페이지 - 새롭게, */
-.nhpoint-event .event-list .list {width: 100%;}
+.nhpoint-event .event-list .list {max-width: 100%;}
 .nh-bers .bers-list .list {width: calc(50% - 40px); padding: 0 20px;}
 
 /* 푸터 */
