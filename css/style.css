@@ -76,7 +76,7 @@ strong {font-size: 3.5rem;}
 .visual .text-box .text br {display: none;}
 .visual .text-box .more {display: inline-block; line-height: 50px; margin: 76px 0 0 0; padding: 0 20px; border-radius: 50px; border: 1px solid #000; font-size: 15px;}
 .visual .text-box .more > span {position: relative; padding: 0 20px 0 0;}
-.visual .text-box .more > span::after {content: ''; display: block; position: absolute; top: 7px; right: 0; width: 6px; height: 10px; background: url('../images/main-visual-more-arr.png');}
+.visual .text-box .more > span::after {content: ''; width: 6px; height: 6px; border-top: 1px solid #121212; border-right: 1px solid #121212; display: inline-block; transform: rotate(45deg); position: absolute; top: 8px; right: 3px;}
 .visual .login {position: absolute; bottom: 0; left: 0; right: 0; z-index: 1;}
 .visual .login > div {position: relative; height: 14px; max-width: 1224px; margin: 0 auto; padding: 0 28px; box-sizing: border-box;}
 .visual .login a {position: absolute; right: 28px; bottom: -40px; width: 86px; height: 86px; background: url('../images/main-visual-login.png')}
@@ -90,16 +90,22 @@ strong {font-size: 3.5rem;}
 .renefits .nh-card .bg {height: 685px; background: url('../images/renefits-bg.png') no-repeat center}
 .renefits .nh-card img {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
 .renefits .nh-card ul {position: relative; width: 711px; height: 685px; margin: 0 auto;}
-.renefits .nh-card li {position: absolute; font-size: 16px; line-height: 24px;}
-.renefits .nh-card li::after {content: ''; position: absolute; width: 20px; height: 20px; background: url('../images/sprite.png') -318px -60px; cursor: pointer;}
+.renefits .nh-card li {position: absolute; font-size: 16px; line-height: 24px; /* opacity: 0.5; */}
+.renefits .nh-card li::before {content: ''; position: absolute; width: 20px; height: 20px; background-color: #b9dfec; border-radius: 10px;}
+.renefits .nh-card li::after {content: ''; position: absolute; width: 10px; height: 10px; background-color: #00aeeb; border-radius: 10px;}
+/* .renefits .nh-card li::after {content: ''; position: absolute; width: 20px; height: 20px; background: url('../images/sprite.png') -318px -60px; cursor: pointer;} */
 .renefits .nh-card .text01 {top: 128px; left: 20px; text-align: right; padding-right: 40px;}
 .renefits .nh-card .text02 {top: 128px; right: 20px; text-align: left; padding-left: 40px;}
 .renefits .nh-card .text03 {bottom: 130px; left: 34px; text-align: right; padding-right: 40px;}
 .renefits .nh-card .text04 {bottom: 130px; right: 40px; text-align: left; padding-left: 40px;}
-.renefits .nh-card .text01::after {top: 20px; right: 5px;}
-.renefits .nh-card .text02::after {top: 20px; left: 2.5px;}
-.renefits .nh-card .text03::after {top: 15px; right: 5px;}
-.renefits .nh-card .text04::after {top: 15.5px; left: 6.5px;}
+.renefits .nh-card .text01::before {top: 20px; right: 6px;}
+.renefits .nh-card .text02::before {top: 20px; left: 2.5px;}
+.renefits .nh-card .text03::before {top: 15px; right: 5px;}
+.renefits .nh-card .text04::before {top: 15.5px; left: 6.5px;}
+.renefits .nh-card .text01::after {top: 25px; right: 11px;}
+.renefits .nh-card .text02::after {top: 24.5px; left: 7.5px;}
+.renefits .nh-card .text03::after {top: 20px; right: 10px;}
+.renefits .nh-card .text04::after {top: 20.5px; left: 12px;}
 .renefits .more-link-content {text-align: center;}
 
 /* 이벤트 영역 */
@@ -122,7 +128,8 @@ strong {font-size: 3.5rem;}
 .card .list .icon04 {background: url('../images/sprite.png') -300px -136px;}
 .card .list strong {display: block; font-size: 20px; margin: 0 0 15px 0;}
 .card .list p {font-size: 14px; line-height: 24px; margin: 0 0 15px 0;}
-.card .list .circle-arr {display: inline-block; vertical-align: top; width: 39px; height: 39px; background: url('../images/sprite.png') no-repeat -400px -136px;}
+.card .list .circle-arr {position: relative; display: inline-block; width: 40px; height: 40px; border: 1px solid #bdbdbd; border-radius: 20px;}
+.card .list .circle-arr::after {content: ''; width: 6px; height: 6px; border-top: 1px solid #a7a7a7; border-right: 1px solid #a7a7a7; display: inline-block; transform: rotate(45deg); position: absolute; top: 16px; right: 18px;}
 
 /* NH멤버스 앱 다운로드 */
 .app {position: relative; overflow: hidden; height: 993px;}
