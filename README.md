@@ -8,7 +8,8 @@
 
 ## 사용 기술
 HTML5 <br>
-CSS3
+CSS3 <br>
+jQuery
 
 ## 미디어 쿼리 분기점
 ```css
@@ -46,7 +47,6 @@ strong {font-size: 3.5rem;}
 - style : 코드 스타일 혹은 포맷 등에 관한 커밋 
 - refactor :  코드 리팩토링에 대한 커밋 
 - test : 테스트 코드 수정에 대한 커밋 
-- feat : 서브 페이지 (새롭게, href 추가 / 서브 배너 추가) 
 
 ## git commit message 작성 했던 규칙
 git 커밋 메시지를 잘 쓰려고 노력했습니다. <br>
