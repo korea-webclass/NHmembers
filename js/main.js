@@ -26,10 +26,13 @@ $(function(){
                 offsetTop = $(this).offset().top;
                 startEffect = offsetTop - $(window).height();   //event start = offset - window height
                 endEffect = offsetTop + $(this).outerHeight();  //event end = document height + this outer height
+                if (scrollTop === 0) {
+                    $(this).removeClass('on');
+                }
                 if (scrollTop > startEffect && scrollTop < endEffect) {
                     $(this).addClass('on');
                 } else {
-                    $(this).removeClass('on');
+                    // $(this).removeClass('on');
                 }
             });
         }
