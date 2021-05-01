@@ -82,7 +82,8 @@ strong {font-size: 3.5rem;}
 .visual .login a {position: absolute; right: 28px; bottom: -40px; width: 86px; height: 86px; background: url('../images/main-visual-login.png')}
 
 /* NH포인트 혜택보기 */
-.renefits .content {padding: 179px 0 41px 0;}
+.renefits .content {padding: 179px 0 41px 0; opacity: 0; transform: translateY(100px);}
+.renefits .content.on {opacity: 1; transform: translateY(0px); transition: 1s 0.5s;}
 .renefits .text-box {text-align: center;}
 .renefits .text-box img {vertical-align: -12px; line-height: 100%;}
 .renefits .text-box strong {margin: 0 0 0 12px;}
@@ -109,7 +110,8 @@ strong {font-size: 3.5rem;}
 .renefits .more-link-content {text-align: center;}
 
 /* 이벤트 영역 */
-.main-event .content {padding: 59px 0 41px 0;}
+.main-event .content {padding: 59px 0 41px 0; opacity: 0; transform: translateY(100px);}
+.main-event .content.on {opacity: 1; transform: translateY(0px); transition: 1s 0.5s;}
 .main-event .list {text-align: center;}
 .main-event img {width: 100%; max-width: 960px; vertical-align: top;}
 .main-event .control {padding: 18px 0 14px 0;}
@@ -120,6 +122,14 @@ strong {font-size: 3.5rem;}
 .card .list {width: 1000px; max-width: calc(100% + 10px); margin: 0 auto;}
 .card .list::after {content: ''; display: block; clear: both;}
 .card .list li {float: left; width: calc(25% - 20px); height: 365px; margin: 10px; padding: 60px 5px 5px 5px; text-align: center; border-radius: 8px; box-sizing: border-box; box-shadow: 0px 1px 30px rgb(0 0 0 / 10%);}
+.card .list li.motion:nth-child(1) {transform: translateY(100px); opacity: 0;}
+.card .list li.motion:nth-child(2) {transform: translateY(200px); opacity: 0;}
+.card .list li.motion:nth-child(3) {transform: translateY(300px); opacity: 0;}
+.card .list li.motion:nth-child(4) {transform: translateY(400px); opacity: 0;}
+.card .list li.on:nth-child(1) {transform: translateY(0px); opacity: 1; transition: 1s 0.3s;}
+.card .list li.on:nth-child(2) {transform: translateY(0px); opacity: 1; transition: 1s 0.3s;}
+.card .list li.on:nth-child(3) {transform: translateY(0px); opacity: 1; transition: 1s 0.3s;}
+.card .list li.on:nth-child(4) {transform: translateY(0px); opacity: 1; transition: 1s 0.3s;}
 .card .list a {display: block;}
 .card .list .icon {display: inline-block; vertical-align: top; background-repeat: no-repeat; width: 90px; height: 90px; margin: 0 0 14px 0;}
 .card .list .icon01 {background: url('../images/sprite.png') 0 -136px;}
@@ -136,7 +146,7 @@ strong {font-size: 3.5rem;}
 .app .bg {min-width: 1652px; height: 993px; margin: 0 auto; background: url('../images/app-bg.png') no-repeat center}
 .app .center {position: absolute; top: 0; right: 0; bottom: 0; left: 0; padding: 0 28px; box-sizing: border-box;}
 .app .content {position: relative; height: 993px;}
-.app .mobile {float: left; width: 609px; height: 100%; background: url('../images/app-mobile.png') no-repeat 100% 85px;}
+.app .mobile {float: left; width: 609px; height: 100%; background: url('../images/app-mobile.png') no-repeat 100% 84px;}
 .app .text-box {float: left; display: table;}
 .app .text-box .table {height: 993px; display: table-cell; vertical-align: middle;}
 .app .app-down {margin: 45px 0 0 0; font-size: 0;}
