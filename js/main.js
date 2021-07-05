@@ -7,6 +7,7 @@ $(function(){
         $("ul",this).slideUp("fast");
     });
 
+    // 스크롤 이벤트
     showContents();
 
     function showContents() {
@@ -26,7 +27,7 @@ $(function(){
                 offsetTop = $(this).offset().top;
                 startEffect = offsetTop - $(window).height();   //event start = offset - window height
                 endEffect = offsetTop + $(this).outerHeight();  //event end = document height + this outer height
-                if (scrollTop === 0) {
+                if (scrollTop === 0) { // scrollTop이 0 이면 클래스 on 빼기
                     $(this).removeClass('on');
                 }
                 if (scrollTop > startEffect && scrollTop < endEffect) {
