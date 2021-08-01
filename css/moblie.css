@@ -6,10 +6,11 @@ body {font-size: 1rem;}
 
 /* 공통 */
 .center {width: 100%; margin: 0; padding: 0}
-.desc {font-size: 40px; line-height: 64px; font-weight: 300; letter-spacing: -1px;}
+.desc {font-size: 24px; line-height: 36px; font-weight: 300; letter-spacing: -1px;}
 .text {font-size: 16px; margin: 20px 0 0 0;}
-.more-link {height: 48px; line-height: 48px; padding: 0 36px;}
-.more-link > span {font-size: 18px;}
+strong {font-size: 24px;}
+.more-link {height: 32px; line-height: 32px; padding: 0 16px;}
+.more-link > span {font-size: 16px;}
 .sub-location {display: none;}
 .sub-banner {margin: 16px 0 0 0;}
 .sub-banner .banner {height: auto; padding: 32px 32px; box-sizing: border-box;}
@@ -24,42 +25,50 @@ body {font-size: 1rem;}
 .header .user, 
 .header .gnb-content nav,
 .header .gnb-content .search {display: none;}
-.header {height: 6.9rem;}
-.header .gnb-content {position: relative; height: 90px;}
-.header .gnb-content .logo {position: absolute; top: 30px; right: 0; left: 0; margin: 0 auto;}
-.header .gnb-content .menu-btn {position: absolute; top: 31px; right: 30px; display: block; width: 36px; height: 28px; background: url('../images/sprite.png') no-repeat -739px -136px;}
+.header {height: auto;}
+.header .gnb-content {position: relative; height: 68px;}
+.header .gnb-content .logo {position: absolute; top: 18px; left: 28px; margin: auto;}
+.header .gnb-content .menu-btn {position: absolute; top: 19px; right: 30px; display: block; width: 36px; height: 28px; background: url('../images/sprite.png') no-repeat -739px -136px;}
 .header .mobile-prev {position: absolute; top: 27px; left: 30px; width: 19px; height: 35px; background: url('../images/sub/prev-arr.png') no-repeat;}
 
 /* 비주얼 */
 .visual .text-box .desc br {display: block;}
 .visual .text-box .text br {display: block;}
 .visual .text-box .more {margin: 34px 0 0 0;}
+.visual .login a {display: none;}
+
+/* 본문 페이지 */
+.main {padding-top: 68px;}
 
 /* NH포인트 혜택보기 */
-.renefits .content {padding: 118px 0 0 0;}
-.renefits .nh-card .bg {max-width: 940px; margin-top: 48px; background-image: none;}
+.renefits .content {padding: 58px 0 0 0;}
+.renefits .text-box .nhpoint-imgfont {display: none;}
+.renefits .text-box .m-nhpoint-imgfont {display: inline-block; vertical-align: -2px; line-height: 100%;}
+.renefits .text-box strong {margin: 0 0 0 6px;}
+.renefits .nh-card {position: relative; height: auto;}
+.renefits .nh-card .bg {max-width: 940px; margin-top: 48px; height: auto; background-image: none;}
 .renefits .nh-card img {position: static; top: 0; left: 0; display: block; margin: 0 auto; transform: none;}
-.renefits .nh-card ul {position: static; width: 264px; height: 192px; margin-top: 39px;}
-.renefits .nh-card li {position: relative; width: 247px; font-size: 18px; line-height: 48px; padding-left: 36px;}
+.renefits .nh-card ul {position: static; width: 264px; height: 162px; margin-top: 39px;}
+.renefits .nh-card li {position: relative; width: 247px; font-size: 16px; line-height: 38px; padding-left: 36px;}
 /* .renefits .nh-card li::after {content: ''; position: absolute; width: 20px; height: 20px; background: url('../images/sprite.png') -318px -60px; cursor: pointer;} */
 .renefits .nh-card li br {display: none;}
 .renefits .nh-card .text01 {top: 0; left: 0; text-align: start; padding-right: 0;}
 .renefits .nh-card .text02 {top: 0; right: 0; text-align: start; padding-left: 36px;}
 .renefits .nh-card .text03 {bottom: 0; left: 0; text-align: start; padding-right: 0;}
 .renefits .nh-card .text04 {bottom: 0; right: 0; text-align: start; padding-left: 36px;}
-.renefits .nh-card .text01::before {top: 16px; left: 2.5px;}
-.renefits .nh-card .text02::before {top: 16px; left: 2.5px;}
-.renefits .nh-card .text03::before {top: 16px; left: 2.5px;}
-.renefits .nh-card .text04::before {top: 16px; left: 2.5px;}
-.renefits .nh-card .text01::after {top: 20.5px; left: 7.5px;}
-.renefits .nh-card .text02::after {top: 20.5px; left: 7.5px;}
-.renefits .nh-card .text03::after {top: 20.5px; left: 7.5px;}
-.renefits .nh-card .text04::after {top: 20.5px; left: 7.5px;}
+.renefits .nh-card .text01::before {top: 10px; left: 2.5px;}
+.renefits .nh-card .text02::before {top: 10px; left: 2.5px;}
+.renefits .nh-card .text03::before {top: 10px; left: 2.5px;}
+.renefits .nh-card .text04::before {top: 10px; left: 2.5px;}
+.renefits .nh-card .text01::after {top: 14.5px; left: 7.5px;}
+.renefits .nh-card .text02::after {top: 14.5px; left: 7.5px;}
+.renefits .nh-card .text03::after {top: 14.5px; left: 7.5px;}
+.renefits .nh-card .text04::after {top: 14.5px; left: 7.5px;}
 
 /* 이벤트 영역 */
-.main-event .desc {font-size: 24px; line-height: 36px; font-weight: 300; letter-spacing: -1px;}
+.main-event .desc {font-size: 16px; line-height: 26px; font-weight: 300; letter-spacing: -1px;}
 .main-event .text {font-size: 16px; margin: 20px 0 0 0;}
-.main-event strong {font-size: 24px;}
+.main-event strong {font-size: 18px;}
 
 /* 모바일 앱 다운로드 혜택 */
 .card .list {width: calc(100% + 0px); margin: 0; padding: 0 40px; box-sizing: border-box;}

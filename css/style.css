@@ -73,7 +73,7 @@ strong {font-size: 3.5rem;}
 .visual .content {position: relative; height: 598px;}
 .visual .text-box {position: absolute; top: 30%; transform: translateY(-30%);}
 .visual .text-box .desc .br01 {display: none;}
-.visual .text-box .text br {display: none;}
+.visual .text-box .text br {display: block;}
 .visual .text-box .more {display: inline-block; line-height: 50px; margin: 76px 0 0 0; padding: 0 20px; border-radius: 50px; border: 1px solid #000; font-size: 15px;}
 .visual .text-box .more > span {position: relative; padding: 0 20px 0 0;}
 .visual .text-box .more > span::after {content: ''; width: 6px; height: 6px; border-top: 1px solid #121212; border-right: 1px solid #121212; display: inline-block; transform: rotate(45deg); position: absolute; top: 8px; right: 3px;}
@@ -85,7 +85,8 @@ strong {font-size: 3.5rem;}
 .renefits .content {padding: 179px 0 41px 0; opacity: 0; transform: translateY(100px);}
 .renefits .content.on {opacity: 1; transform: translateY(0px); transition: 1s 0.5s;}
 .renefits .text-box {text-align: center;}
-.renefits .text-box img {vertical-align: -12px; line-height: 100%;}
+.renefits .text-box .nhpoint-imgfont {vertical-align: -12px; line-height: 100%;}
+.renefits .text-box .m-nhpoint-imgfont {display: none;}
 .renefits .text-box strong {margin: 0 0 0 12px;}
 .renefits .nh-card {position: relative; height: 685px;}
 .renefits .nh-card .bg {height: 685px; background: url('../images/renefits-bg.png') no-repeat center}
