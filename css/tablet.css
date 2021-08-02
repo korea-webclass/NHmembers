@@ -21,7 +21,7 @@ body {font-size: 1rem;}
 .header .gnb-content {position: relative; height: 68px;}
 .header .gnb-content .logo {position: absolute; top: 18px; right: 0; left: 0; margin: 0 auto;}
 .header .gnb-content .menu-btn {position: absolute; top: 19px; right: 30px; display: block; width: 36px; height: 28px; background: url('../images/sprite.png') no-repeat -739px -136px;}
-.header .mobile-prev {position: absolute; top: 27px; left: 30px; width: 19px; height: 35px; background: url('../images/sub/prev-arr.png') no-repeat;}
+/* .header .mobile-prev {position: absolute; top: 27px; left: 30px; width: 19px; height: 35px; background: url('../images/sub/prev-arr.png') no-repeat;} */
 
 /* 비주얼 */
 .visual .text-box .desc br {display: block;}
@@ -30,6 +30,7 @@ body {font-size: 1rem;}
 
 /* 본문 페이지 */
 .main {padding-top: 68px;}
+.sub {padding-top: 68px;}
 
 /* NH포인트 혜택보기 */
 .renefits .content {padding: 158px 0 0 0;}

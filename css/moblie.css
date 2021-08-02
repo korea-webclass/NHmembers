@@ -29,7 +29,7 @@ strong {font-size: 24px;}
 .header .gnb-content {position: relative; height: 56px;}
 .header .gnb-content .logo {position: absolute; top: 18px; left: 28px; width: 132px; height: 20px; margin: auto; background: url('../images/m-logo.png') no-repeat -0px 0px}
 .header .gnb-content .menu-btn {position: absolute; top: 19px; right: 30px; display: block; width: 24px; height: 18px; background: url('../images/m-menu-icon.png') no-repeat 0 0;}
-.header .mobile-prev {position: absolute; top: 27px; left: 30px; width: 19px; height: 35px; background: url('../images/sub/prev-arr.png') no-repeat;}
+/* .header .mobile-prev {position: absolute; top: 27px; left: 30px; width: 19px; height: 35px; background: url('../images/sub/prev-arr.png') no-repeat;} */
 
 /* 비주얼 */
 .visual .text-box .desc br {display: block;}
@@ -39,6 +39,7 @@ strong {font-size: 24px;}
 
 /* 본문 페이지 */
 .main {padding-top: 56px;}
+.sub {padding-top: 56px;}
 
 /* NH포인트 혜택보기 */
 .renefits .content {padding: 58px 0 0 0;}
@@ -101,6 +102,11 @@ strong {font-size: 24px;}
 .app .app-down .app-store {display: inline-block; width: 127px; height: 44px; background: url('../images/m-app-btn.png') no-repeat -133px 0;}
 
 /* 서브 페이지 - 새롭게, */
+.sub-page-title .sub-desc {font-size: 28px;}
+.sub-content-title {margin: 0 0 24px 0;}
+.nhpoint-event .point-set p {font-size: 20px;}
+.nhpoint-event .event-list .list-text {max-width: 533px; width: 100%; margin: 0 auto;}
+.nhpoint-event .event-list .list-text br {display: none;}
 .nhpoint-event .event-list .list {max-width: 100%;}
 .nh-bers .bers-list .list {width: calc(50% - 40px); padding: 0 20px;}
 
