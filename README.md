@@ -13,9 +13,9 @@ jQuery
 
 ## 미디어 쿼리 분기점
 ```css
-@media all and (min-width: 1001px) and (max-width: 1097px) {}
-@media all and (min-width: 758px) and (max-width: 1000px) {}
-@media all and (min-width: 0px) and (max-width: 757px) {}
+@media all and (min-width: 1024px) {}
+@media all and (min-width: 768px) and (max-width: 1023px) {}
+@media all and (min-width: 0px) and (max-width: 767px) {}
 ```
 
 ## 공통적으로 적용되는 스타일
