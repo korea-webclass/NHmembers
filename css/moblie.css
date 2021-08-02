@@ -87,12 +87,18 @@ strong {font-size: 24px;}
 .card .list .circle-arr::after {content: ''; width: 6px; height: 6px; border-top: 1px solid #a7a7a7; border-right: 1px solid #a7a7a7; display: inline-block; transform: rotate(45deg); position: absolute; top: 16px; right: 18px;}
 
 /* NH멤버스 앱 다운로드 */
-.app {overflow: hidden; height: 1155px;}
-.app .bg {height: 784px;}
-.app .content {height: 1155px;}
-.app .mobile {float: none; width: 549px; margin: 0 auto; height: 769px; background: url('../images/app-mobile.png') no-repeat 0px 111px / 100% auto;}
+.app {overflow: hidden; height: 400px;} 
+.app .bg {height: 100%; background: none;}
+.app .center {padding: 36px 28px;}
+.app .content {height: auto;}
+.app .mobile {float: none; width: 549px; margin: 0 auto; height: auto; background: none;}
 .app .text-box {float: none; display: block; text-align: center;}
 .app .text-box .table {height: auto; display: block;}
+.app .text-box .text {max-width: 402px; width: 100%; margin: 0 auto;}
+.app .text-box .text br {display: none;}
+.app .app-down {margin: 28px 0 0 0; font-size: 0;}
+.app .app-down .google-play {display: inline-block; width: 127px; height: 44px; background: url('../images/m-app-btn.png') no-repeat 0 0; margin: auto;}
+.app .app-down .app-store {display: inline-block; width: 127px; height: 44px; background: url('../images/m-app-btn.png') no-repeat -133px 0;}
 
 /* 서브 페이지 - 새롭게, */
 .nhpoint-event .event-list .list {max-width: 100%;}
@@ -103,5 +109,6 @@ strong {font-size: 24px;}
 .footer .info li {display: block; margin: 0; padding: 0; font-size: 13px;}
 .footer .info li + li {margin: 16px 0 0 0;}
 .footer .refe {position: static; font-size: 0; margin: 40px 0 0 0;}
-.footer .refe .wa {width: 140px; height: 100px; background-position: -589px -136px; transform: scale(1); transform-origin: 0px 0px; zoom: 0;}
-.footer .refe .qr {width: 130px; height: 150px; background-position: -449px -136px;}
+.footer .refe a {display: inline-block; background: url('../images/m-footer-icon.png') no-repeat}
+.footer .refe .wa {width: 80px; height: 92px; background-position: 0 0; transform: scale(1); transform-origin: 0px 0px; zoom: 0;}
+.footer .refe .qr {width: 80px; height: 92px; background-position: -97px 0; transform: scale(1); transform-origin: -136px 0px; zoom: 0;}
